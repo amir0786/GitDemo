@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="89" started-at="2019-02-03T15:27:22Z" finished-at="2019-02-03T15:27:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="89" started-at="2019-02-03T15:27:22Z" finished-at="2019-02-03T15:27:22Z">
+      <class name="automationTesting.SeleniumTest">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:automationTesting.SeleniumTest@b97c004]" name="logIn" duration-ms="2" started-at="2019-02-03T15:27:22Z" finished-at="2019-02-03T15:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="signUp()[pri:0, instance:automationTesting.SeleniumTest@b97c004]" name="signUp" duration-ms="0" started-at="2019-02-03T15:27:22Z" finished-at="2019-02-03T15:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+      </class> <!-- automationTesting.SeleniumTest -->
+      <class name="automationTesting.RESTAPITest">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:automationTesting.RESTAPITest@5cc7c2a6]" name="deleteTwitter" duration-ms="22" started-at="2019-02-03T15:27:22Z" finished-at="2019-02-03T15:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postJIRA()[pri:0, instance:automationTesting.RESTAPITest@5cc7c2a6]" name="postJIRA" duration-ms="0" started-at="2019-02-03T15:27:22Z" finished-at="2019-02-03T15:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJIRA -->
+      </class> <!-- automationTesting.RESTAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
